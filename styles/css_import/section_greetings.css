@@ -1,0 +1,42 @@
+.section_greetings {
+  display: flex;
+  gap: 54px;
+  margin-left: 159px;
+  margin-right: 319px;
+  .div_info_greetings {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* max-width: 609px;/ */
+  }
+  button {
+    width: 83px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: rgba(0, 121, 138, 1);
+    color: white;
+    border: none;
+  }
+}
+
+@media (max-width: 394px) {
+  .section_greetings {
+    flex-direction: column;
+    gap: 0;
+
+    .div_info_greetings {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      /* max-width: 609px;/ */
+    }
+    button {
+      width: 83px;
+      height: 36px;
+      border-radius: 8px;
+      background-color: rgba(0, 121, 138, 1);
+      color: white;
+      border: none;
+    }
+  }
+}

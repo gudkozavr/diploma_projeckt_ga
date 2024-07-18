@@ -6,9 +6,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
-  color: dark;
+
   overflow-x: hidden;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 394px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 12px;
+  }
+
+  main {
+    width: 100%;
+  }
 }
