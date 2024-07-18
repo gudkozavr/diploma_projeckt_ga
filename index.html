@@ -4,11 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header></header>
-    <div></div>
+    <header class="header">
+      <div class="left_form">
+        <a href="">
+          <img src="assets/icons_header/Vector.png" alt="logo" />
+        </a>
+        <form action="">
+          <div class="search_div">
+            <img
+              src="assets/icons_header/search_24dp_RGBA(112, 112, 112, 1)_FILL0_wght400_GRAD0_opsz24.png"
+              width="22"
+              height="22"
+              alt="icons_loop"
+            />
+            <input
+              class="search_events"
+              type="text"
+              name="text"
+              placeholder="Search events"
+            />
+          </div>
+          <input
+            class="search_locaition"
+            type="text"
+            name="text"
+            value="Mountain View, CA"
+          />
+          <button class="search_btn" type="submit">
+            <img
+              src="assets/icons_header/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+              width="20"
+              height="20"
+              alt=""
+            />
+          </button>
+        </form>
+      </div>
+
+      <div class="right_form">
+        <a class="link_language" href="">
+          <img
+            src="assets/icons_header/language_24dp_RGBA(33, 33, 33, 1)_FILL0_wght400_GRAD0_opsz24.png"
+            width="20"
+            height="20"
+            alt="language"
+          />
+          English
+        </a>
+        <a href="">Log In</a>
+        <button>Sing Up</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section_greetings">
+        <div class="div_info_greetings">
+          <h1>The people platform—Where interests become friendships</h1>
+          <p>
+            Whatever your interest, from hiking and reading to networking and
+            skill sharing, there are thousands of people who share it on Meetup.
+            Events are happening every day—sign up to join the fun.
+          </p>
+          <button class="join">Join Meetup</button>
+        </div>
+        <div class="img_byke">
+          <img
+            src="/assets/icons_main/section_greetings/irl_event.svg fill.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+
     <footer></footer>
     <script src="scripts/script.js"></script>
   </body>
